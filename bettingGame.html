@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+  <form>
+  	Wallet: $<span id = "wallet">100</span><br>
+  	Please bet an amount between $5 and $10.<br>
+  	Bet: <input type="text" id="myBet"><br>
+  	Guess: <input type="text" id="myGuess"><br>
+  	<input type="submit" id = "submit">
+  </form>
+  Log:<br>
+  <div id= "output" style = "max-height: 500px; border-style: solid; overflow:auto;">
+
+  </div>
+
+
+  <!-- Scripts -->
+  <script src = "bettingGame.js"></script>
+  </body>
+</html>
